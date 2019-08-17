@@ -16,3 +16,4 @@
 - Sassy CSS
 - FontAwesome - Icons
 - Heroku - quick prototyping
+- Axios - HTTP library
