@@ -1,34 +1,18 @@
-# thesuperdudu
+# The Super Dudu
 
-## Project setup
-```
-yarn install
-```
+> E-commerce Vue application
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+#### Developer Notes
+- [Documentation](https://docs.google.com/document/d/11Ho428M-SvDin6ykidQNYkH_KSscOnH85Mrw-339cAE/edit#heading=h.zcazox64u48u)
+- [Trello Board](https://trello.com/b/CKzTOI4c/the-super-dudu-vue)
 
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Run your unit tests
-```
-yarn run test:unit
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+*Technologies used*
+- Vue JS
+- Circle CI - TDD
+- Vuex - State Management
+- Typescript - JS type checking
+- TSLint - Linting for Typescript
+- Bootstrap - CSS
+- Sassy CSS
+- FontAwesome - Icons
+- Heroku - quick prototyping
