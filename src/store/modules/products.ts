@@ -23,7 +23,7 @@ export default {
   },
 
   actions: {
-    fetchAllProducts: async ({ commit }: any) => await axios.get('https://jsonplaceholder.typicode.com/todos/')
+    fetchAllProducts: async ({ commit }: any) => await axios.get(process.env.VUE_APP_API_URL)
         .then((response) => {
           commit('setAllProducts', response.data);
         })
