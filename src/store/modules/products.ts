@@ -1,5 +1,6 @@
 import axios from 'axios';
 import Product from '../../models/Product';
+import notify from '@/assets/js/notification';
 
 interface State {
   products: Product[];
@@ -27,6 +28,6 @@ export default {
         .then((response) => {
           commit('setAllProducts', response.data);
         })
-        .catch((error) => console.log(error)),
+        .catch((error) => notify('Error', error, 'error')),
   },
 };
