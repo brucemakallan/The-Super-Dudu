@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <notifications group="notification-group" width="100%" />
-    <Loading />
+    <Loading v-if="isLoading" />
     <transition name="fade" mode="out-in">
       <router-view/>
     </transition>
@@ -11,9 +11,15 @@
 <script lang="ts">
 import Vue from 'vue';
 import Loading from './components/Loading.vue';
+import { mapGetters } from 'vuex';
 
 export default Vue.extend({
   name: 'App',
+
+  computed: {
+    ...mapGetters(['isLoading']),
+  },
+
   components: {
     Loading,
   },
