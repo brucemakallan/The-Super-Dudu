@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <notifications group="notification-group" width="100%" />
-    <router-view/>
+    <transition name="fade" mode="out-in">
+      <router-view/>
+    </transition>
   </div>
 </template>
 
