@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <NavBar />
+    <font-awesome-icon icon="envelope" />
   </div>
 </template>
 
